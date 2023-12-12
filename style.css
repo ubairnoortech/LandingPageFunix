@@ -21,6 +21,26 @@ html,body{
     height: 60%;
     width: 100%;
 }
+#overlay{
+    
+    width: 100%;
+    height: 100%;
+  background-color:rgba(0, 0, 0, 0.534); 
+  
+
+
+}
+#text{
+    position:absolute;
+    background-color: red;
+
+    width: 100%;
+    padding: 0 10vw;
+
+
+}
+
+
 #bottom{
     display: flex;
     height: 40%;
@@ -47,3 +67,4 @@ html,body{
     height: 100%;
     background-color: blueviolet;
 }
+
