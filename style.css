@@ -79,12 +79,15 @@ font-weight: 900;
 #bone{
     width: 25%;
     height: 100%;
-    background: yellow;
+    background: #fff;
 }
-#btow{
+#btwo{
     width: 25%;
     height: 100%;
-    background-color: chocolate;
+    background-image: url(https://images.unsplash.com/photo-1530933760-343e767695cd?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: 50% 20%;
+    background-size: cover;
+
 }
 #bthree{
     width: 25%;
