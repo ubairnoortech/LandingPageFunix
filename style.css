@@ -32,14 +32,24 @@ html,body{
 #text{
     display: flex;
     position:absolute;
-    
+    justify-content: space-between;
     bottom: 20%;
     width: 100%;
     /* we add view width: it will change with device size*/
     /* The device screen view width is 100vw */
     padding: 0 10vw;
+    align-items: center;
 
 
+}
+#textright{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+#textright p{
+    font-size: 12px;
+ 
 }
 
 #text h1{
