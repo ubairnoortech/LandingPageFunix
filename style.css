@@ -39,22 +39,28 @@ html,body{
     /* The device screen view width is 100vw */
     padding: 0 10vw;
     align-items: center;
-
-
+color: #fff;
+border: 1px solid white;
 }
 #textright{
+    border: 1px solid yellow;
     display: flex;
     width: 60%;
     justify-content: space-between;
   align-items: center;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 
 }
 #textright p{
     font-size: 12px;
     width: 40%;
-    border: 1px solid yellow;
+    border: 1px solid red;
     
+}
+#textright i {
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid green;
 }
 
 #text h1{
