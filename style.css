@@ -114,23 +114,28 @@ font-weight: 900;
     height: 100%;
     background-color: grey;
     color: #fff;
-    padding: 10px;
-
-
+    padding: 30px;
 }
 
 .notf{
     display: flex;
-    border: 1px solid rgb(26, 15, 174);
+    margin-top: 20px;
+    /* border: 1px solid rgb(26, 15, 174); */
+    justify-content: space-between;
+    overflow: hidden;
 }
 .notf #photo{
+   
     width: 40px;
     height: 40px;
     background-color: red;
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
+    border-radius: 50%;
 }
 .notf  p {
-    width: 80%;
- 
-    border: 1px solid rgb(222, 15, 143);
+    width: 90%;
+    /* border: 1px solid rgb(222, 15, 143); */
+    font-size: 12px;
+    margin-left: 5px;
+   
 }
