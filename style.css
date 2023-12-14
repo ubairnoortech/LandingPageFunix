@@ -112,6 +112,25 @@ font-weight: 900;
 #bfour{
     width: 30%;
     height: 100%;
-    background-color: blueviolet;
+    background-color: grey;
+    color: #fff;
+    padding: 10px;
+
+
 }
 
+.notf{
+    display: flex;
+    border: 1px solid rgb(26, 15, 174);
+}
+.notf #photo{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border: 1px solid greenyellow;
+}
+.notf  p {
+    width: 80%;
+ 
+    border: 1px solid rgb(222, 15, 143);
+}
