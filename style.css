@@ -89,6 +89,10 @@ font-weight: 900;
     background: #fff;
     padding: 30px;
 }
+#bone h3{
+    color: #969595;
+    font-weight: 500;
+}
 
 #bone p{
     margin-top: 20px;
@@ -112,7 +116,7 @@ font-weight: 900;
     
 }
 #bthreetop{
-    padding: 20px;
+    padding: 40px;
     overflow: hidden;
     color: #fff;
     width: 100%;
@@ -121,8 +125,9 @@ font-weight: 900;
 
 }
 #bthreetop p{
-    font-size: 10px;
+    font-size: 15px;
     margin-top: 10px ;
+    color: #e6dddd;
 }
 #bthreebottom{
     width: 100%;
@@ -161,6 +166,7 @@ font-weight: 900;
     background-color: red;
     /* border: 1px solid greenyellow; */
     border-radius: 50%;
+   
 }
 .notf  p {
     width: 90%;
@@ -169,6 +175,7 @@ font-weight: 900;
     margin-left: 5px;
    
 }
+
 a{
     text-decoration: none;
 }
