@@ -7,6 +7,7 @@
 html,body{
     width: 100%;
     height: 100%;
+    font-family: 'Rethink Sans', sans-serif;
     
 }
 #main{
@@ -29,6 +30,12 @@ html,body{
 
 
 }
+#btwoverlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(54, 47, 42, 0.676);
+}
 #text{
     display: flex;
     position:absolute;
@@ -40,10 +47,10 @@ html,body{
     padding: 0 10vw;
     align-items: center;
 color: #fff;
-border: 1px solid white;
+/* border: 1px solid white; */
 }
 #textright{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     display: flex;
     width: 60%;
     justify-content: space-between;
@@ -54,19 +61,19 @@ border: 1px solid white;
 #textright p{
     font-size: 12px;
     width: 40%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     
 }
 #textright i {
     color: #fff;
     font-size: 20px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 #text h1{
     font-size: 5vw;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Rethink Sans', sans-serif;
 font-weight: 900;
 }
 
@@ -74,7 +81,7 @@ font-weight: 900;
     display: flex;
     height: 40%;
     width: 100%;
-    background-color: green;
+    /* background-color: green; */
 }
 #bone{
     width: 25%;
@@ -99,15 +106,22 @@ font-weight: 900;
 #bthree{
     width: 20%;
     height: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
+  
     
 }
 #bthreetop{
     padding: 20px;
+    overflow: hidden;
+    color: #fff;
     width: 100%;
     height: 50%;
     background-color: orangered;
 
+}
+#bthreetop p{
+    font-size: 10px;
+    margin-top: 10px ;
 }
 #bthreebottom{
     width: 100%;
@@ -116,6 +130,12 @@ font-weight: 900;
     background-size: cover;
     background-position: 50% ;
 
+}
+#bthreebottomoverlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(54, 49, 49, 0.756);
+    
 }
 
 #bfour{
