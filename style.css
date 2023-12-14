@@ -94,6 +94,7 @@ font-weight: 900;
     margin-top: 20px;
   
     font-size: 12px;
+    color: rgba(26, 25, 25, 0.719);
 }
 #btwo{
     width: 25%;
@@ -141,8 +142,8 @@ font-weight: 900;
 #bfour{
     width: 30%;
     height: 100%;
-    background-color: grey;
-    color: #fff;
+    background-color: rgb(0, 0, 0);
+    color: #969595;
     padding: 30px;
 }
 
@@ -167,4 +168,7 @@ font-weight: 900;
     font-size: 12px;
     margin-left: 5px;
    
+}
+a{
+    text-decoration: none;
 }
